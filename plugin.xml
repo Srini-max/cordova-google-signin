@@ -40,23 +40,22 @@
 	      <access origin="https://accounts.google.com/*" />
 	    </config-file>
 
-        <!-- <preference name="REVERSED_CLIENT_ID" /> -->
+       <preference name="REVERSED_CLIENT_ID" />
 
-        <!-- this block gets changed by a hook, dont fiddle with it -->
-        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
-	      <array>
-	        <dict>
-	            <key>CFBundleTypeRole</key>
-	            <string>Editor</string>
-	            <key>CFBundleURLName</key>
-	            <string>REVERSED_CLIENT_ID</string>
-	            <key>CFBundleURLSchemes</key>
-	            <array>
-	                <string>$REPLACE$</string>
-	            </array>
-	        </dict>
-	      </array>
-	    </config-file>
+    <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+      <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>REVERSED_CLIENT_ID</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>$REVERSED_CLIENT_ID</string>
+            </array>
+        </dict>
+      </array>
+    </config-file>
 
 	    <header-file src="src/ios/GoogleSignin.h"/>
     	<source-file src="src/ios/GoogleSignin.m"/>
