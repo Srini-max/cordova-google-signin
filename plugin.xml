@@ -40,7 +40,6 @@
 	      <access origin="https://accounts.google.com/*" />
 	    </config-file>
 
-       <preference name="REVERSED_CLIENT_ID" />
 
     <config-file target="*-Info.plist" parent="CFBundleURLTypes">
       <array>
@@ -51,7 +50,7 @@
             <string>REVERSED_CLIENT_ID</string>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>$REVERSED_CLIENT_ID</string>
+                <string>com.googleusercontent.apps.757392803864-pev4rpqpit3d14e14m8mj8no8rgjprn0</string>
             </array>
         </dict>
       </array>
