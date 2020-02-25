@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "757392803864",
+    "firebase_url": "https://fir-mobile-os.firebaseio.com",
+    "project_id": "fir-mobile-os",
+    "storage_bucket": "fir-mobile-os.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757392803864:android:8515bd859364a05b06db6d",
+        "android_client_info": {
+          "package_name": "com.gems.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757392803864-i7as7krnd9mtlbls7jbjnuaotubd9jks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACpCfxDOSlP-SSLD8Cy3nghgTPNt5IKUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757392803864-i7as7krnd9mtlbls7jbjnuaotubd9jks.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "757392803864-pev4rpqpit3d14e14m8mj8no8rgjprn0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gems.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
