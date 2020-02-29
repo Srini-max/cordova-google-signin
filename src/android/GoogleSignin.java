@@ -156,10 +156,10 @@ public class GoogleSignin extends CordovaPlugin
     }
 
     private void login(CallbackContext callbackContext) {
-        if (mCurrentLoginCallback != null) {
-            callbackContext.error("a login is currently in progress");
-            return;
-        }
+      //  if (mCurrentLoginCallback != null) {
+          //  callbackContext.error("a login is currently in progress");
+          //  return;
+       // }
 
         //store the callback for after the activity finishes
         mCurrentLoginCallback = callbackContext;
