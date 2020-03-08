@@ -31,7 +31,7 @@ public class GoogleSignin extends CordovaPlugin
     private static final String ACTION_SILENT_LOGIN = "silentLogin";
     private static final String ACTION_LOGOUT = "logout";
     private static final String ACTION_REVOKE_ACCESS = "revoke";
-    private static final String FIREBASE_CLIENT_ID = "496146475990-ugt5dcb5kp2ib84mvpf1te5a1o13jdum.apps.googleusercontent.com";
+    private static final String FIREBASE_CLIENT_ID = "405924634007-b5j8j6il3prfpfsdhj341ahq9j1tn0q0.apps.googleusercontent.com";
     private GoogleApiClient mGoogleApiClient;
 
     private CallbackContext mCurrentLoginCallback;
