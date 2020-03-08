@@ -1,36 +1,45 @@
 {
   "project_info": {
-    "project_number": "757392803864",
-    "firebase_url": "https://fir-mobile-os.firebaseio.com",
-    "project_id": "fir-mobile-os",
-    "storage_bucket": "fir-mobile-os.appspot.com"
+    "project_number": "496146475990",
+    "firebase_url": "https://signin-bafec.firebaseio.com",
+    "project_id": "signin-bafec",
+    "storage_bucket": "signin-bafec.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:757392803864:android:05ddabc9700d55de06db6d",
+        "mobilesdk_app_id": "1:496146475990:android:d010d86b9d1e46aa855277",
         "android_client_info": {
           "package_name": "com.gems.firebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "757392803864-hs0m5fganr0dmd58snshsaq0tieov3h1.apps.googleusercontent.com",
+          "client_id": "496146475990-ugt5dcb5kp2ib84mvpf1te5a1o13jdum.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.gems.firebase",
-            "certificate_hash": "28dd951c8fb305227ceed3f0e81d46953c682370"
+            "certificate_hash": "0bd03e5645f0bf29047846161bf76a35363bd179"
           }
+        },
+        {
+          "client_id": "496146475990-vugtthf7j59cb98n55nvfe61g00ovfut.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyACpCfxDOSlP-SSLD8Cy3nghgTPNt5IKUA"
+          "current_key": "AIzaSyCUY7TuXNqE1Zs5BuvSV8sihmQIZTA8xPg"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496146475990-vugtthf7j59cb98n55nvfe61g00ovfut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
