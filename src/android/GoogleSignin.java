@@ -36,7 +36,7 @@ public class GoogleSignin extends CordovaPlugin
 
     private CallbackContext mCurrentLoginCallback;
 
-    private String mServerClientId = null;
+    private String mServerClientId = "405924634007-b5j8j6il3prfpfsdhj341ahq9j1tn0q0.apps.googleusercontent.com";
 
     @Override
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
@@ -124,8 +124,8 @@ public class GoogleSignin extends CordovaPlugin
     }
 
     private void setServerClientId(String id, CallbackContext callbackContext) {
-        if (id != null && id.length() > 0) {
-            mServerClientId = FIREBASE_CLIENT_ID;
+        if (mServerClientId != null) {
+            mServerClientId = "405924634007-b5j8j6il3prfpfsdhj341ahq9j1tn0q0.apps.googleusercontent.com";
             callbackContext.success();
         } else {
             callbackContext.error("invalid server client id");
