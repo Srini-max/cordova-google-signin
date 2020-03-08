@@ -31,7 +31,7 @@ public class GoogleSignin extends CordovaPlugin
     private static final String ACTION_SILENT_LOGIN = "silentLogin";
     private static final String ACTION_LOGOUT = "logout";
     private static final String ACTION_REVOKE_ACCESS = "revoke";
-
+    private static final String FIREBASE_CLIENT_ID = "496146475990-ugt5dcb5kp2ib84mvpf1te5a1o13jdum.apps.googleusercontent.com";
     private GoogleApiClient mGoogleApiClient;
 
     private CallbackContext mCurrentLoginCallback;
@@ -122,7 +122,7 @@ public class GoogleSignin extends CordovaPlugin
 
     private void setServerClientId(String id, CallbackContext callbackContext) {
         if (id != null && id.length() > 0) {
-            mServerClientId = id;
+            mServerClientId = FIREBASE_CLIENT_ID;
             callbackContext.success();
         } else {
             callbackContext.error("invalid server client id");
