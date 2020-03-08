@@ -83,6 +83,7 @@ public class GoogleSignin extends CordovaPlugin
 
     private void handleSignInResult(GoogleSignInResult result) {
         Log.d(TAG, "handleSignInResult:" + result.isSuccess());
+        Log.d(TAG, "Status Code:" + result.getStatus().getStatusCode());
         if (result.isSuccess()) {
             // Signed in successfully, show authenticated UI.
             JSONObject responseJson = new JSONObject();
@@ -113,8 +114,10 @@ public class GoogleSignin extends CordovaPlugin
             try{
                 response.put("message", status.getStatusMessage());
                 response.put("code", status.getStatusCode());
+                 Log.d(TAG, "Sucess Plugin" + status.getStatusMessage());
                 mCurrentLoginCallback.error(response);
             }catch(JSONException ex){
+             Log.d(TAG, "Exception Plugin" + ex.toString());
                 mCurrentLoginCallback.error( ex.toString() );
             }
         }
