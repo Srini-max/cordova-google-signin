@@ -77,6 +77,7 @@ public class GoogleSignin extends CordovaPlugin
         // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
         if (requestCode == RC_SIGN_IN) {
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
+            Log.d(TAG, "result signin" + result);
             handleSignInResult(result);
         }
     }
